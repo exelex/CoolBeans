@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D055FF342792D9DF008E1F3F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D055FF332792D9DF008E1F3F /* MenuView.swift */; };
+		D055FF3727935250008E1F3F /* CustomizeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D055FF3627935250008E1F3F /* CustomizeView.swift */; };
 		D05B278A277B8B5A0088F187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05B2789277B8B5A0088F187 /* AppDelegate.swift */; };
 		D05B278C277B8B5A0088F187 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05B278B277B8B5A0088F187 /* SceneDelegate.swift */; };
 		D05B278E277B8B5A0088F187 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05B278D277B8B5A0088F187 /* ContentView.swift */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D055FF332792D9DF008E1F3F /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		D055FF3627935250008E1F3F /* CustomizeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeView.swift; sourceTree = "<group>"; };
 		D05B2786277B8B5A0088F187 /* CoolBeans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolBeans.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05B2789277B8B5A0088F187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D05B278B277B8B5A0088F187 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 				D05B2789277B8B5A0088F187 /* AppDelegate.swift */,
 				D05B278B277B8B5A0088F187 /* SceneDelegate.swift */,
 				D05B278D277B8B5A0088F187 /* ContentView.swift */,
+				D055FF332792D9DF008E1F3F /* MenuView.swift */,
+				D055FF3627935250008E1F3F /* CustomizeView.swift */,
 				D05B279E277B8EDE0088F187 /* menu.json */,
 				D05B27A4277B957F0088F187 /* MenuSection.swift */,
 				D05B27A7277B98070088F187 /* Menu.swift */,
@@ -158,9 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D055FF342792D9DF008E1F3F /* MenuView.swift in Sources */,
 				D05B27A8277B98070088F187 /* Menu.swift in Sources */,
 				D05B27A5277B957F0088F187 /* MenuSection.swift in Sources */,
 				D05B278A277B8B5A0088F187 /* AppDelegate.swift in Sources */,
+				D055FF3727935250008E1F3F /* CustomizeView.swift in Sources */,
 				D05B278C277B8B5A0088F187 /* SceneDelegate.swift in Sources */,
 				D05B27A2277B924F0088F187 /* Drink.swift in Sources */,
 				D05B278E277B8B5A0088F187 /* ContentView.swift in Sources */,

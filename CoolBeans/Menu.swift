@@ -10,7 +10,7 @@ import Foundation
 class Menu: ObservableObject, Codable {
     let sections: [MenuSection]
     
-    init () {
+    init() {
         do {
             let url = Bundle.main.url(forResource: "menu", withExtension: "json")!
             let data = try Data(contentsOf: url)
