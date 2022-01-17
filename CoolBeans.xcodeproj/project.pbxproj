@@ -19,6 +19,10 @@
 		D05B27A2277B924F0088F187 /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05B27A1277B924F0088F187 /* Drink.swift */; };
 		D05B27A5277B957F0088F187 /* MenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05B27A4277B957F0088F187 /* MenuSection.swift */; };
 		D05B27A8277B98070088F187 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05B27A7277B98070088F187 /* Menu.swift */; };
+		D0998C16279559A7004283FC /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0998C15279559A7004283FC /* FileManager-DocumentsDirectory.swift */; };
+		D0998C1827955A1F004283FC /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0998C1727955A1F004283FC /* History.swift */; };
+		D0BDF01C2795488700632DF7 /* Serving.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BDF01B2795488700632DF7 /* Serving.swift */; };
+		D0ED24E52794B73D00AEE581 /* ConfigurationOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ED24E42794B73D00AEE581 /* ConfigurationOption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		D05B27A1277B924F0088F187 /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
 		D05B27A4277B957F0088F187 /* MenuSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSection.swift; sourceTree = "<group>"; };
 		D05B27A7277B98070088F187 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		D0998C15279559A7004283FC /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		D0998C1727955A1F004283FC /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		D0BDF01B2795488700632DF7 /* Serving.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serving.swift; sourceTree = "<group>"; };
+		D0ED24E42794B73D00AEE581 /* ConfigurationOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationOption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,11 +81,15 @@
 				D05B278D277B8B5A0088F187 /* ContentView.swift */,
 				D055FF332792D9DF008E1F3F /* MenuView.swift */,
 				D055FF3627935250008E1F3F /* CustomizeView.swift */,
+				D0998C15279559A7004283FC /* FileManager-DocumentsDirectory.swift */,
+				D0998C1727955A1F004283FC /* History.swift */,
 				D05B279E277B8EDE0088F187 /* menu.json */,
 				D05B27A4277B957F0088F187 /* MenuSection.swift */,
 				D05B27A7277B98070088F187 /* Menu.swift */,
 				D05B278F277B8B5D0088F187 /* Assets.xcassets */,
 				D05B27A1277B924F0088F187 /* Drink.swift */,
+				D0BDF01B2795488700632DF7 /* Serving.swift */,
+				D0ED24E42794B73D00AEE581 /* ConfigurationOption.swift */,
 				D05B2794277B8B5D0088F187 /* LaunchScreen.storyboard */,
 				D05B2797277B8B5D0088F187 /* Info.plist */,
 				D05B2791277B8B5D0088F187 /* Preview Content */,
@@ -165,12 +177,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D055FF342792D9DF008E1F3F /* MenuView.swift in Sources */,
+				D0998C16279559A7004283FC /* FileManager-DocumentsDirectory.swift in Sources */,
 				D05B27A8277B98070088F187 /* Menu.swift in Sources */,
 				D05B27A5277B957F0088F187 /* MenuSection.swift in Sources */,
 				D05B278A277B8B5A0088F187 /* AppDelegate.swift in Sources */,
 				D055FF3727935250008E1F3F /* CustomizeView.swift in Sources */,
+				D0998C1827955A1F004283FC /* History.swift in Sources */,
 				D05B278C277B8B5A0088F187 /* SceneDelegate.swift in Sources */,
+				D0BDF01C2795488700632DF7 /* Serving.swift in Sources */,
 				D05B27A2277B924F0088F187 /* Drink.swift in Sources */,
+				D0ED24E52794B73D00AEE581 /* ConfigurationOption.swift in Sources */,
 				D05B278E277B8B5A0088F187 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +331,7 @@
 				DEVELOPMENT_TEAM = J4Q2H4D999;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CoolBeans/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -322,7 +339,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = exelex.CoolBeans;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -336,6 +353,7 @@
 				DEVELOPMENT_TEAM = J4Q2H4D999;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = CoolBeans/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -343,7 +361,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = exelex.CoolBeans;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
