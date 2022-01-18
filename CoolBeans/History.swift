@@ -38,12 +38,12 @@ class History: ObservableObject {
         }
 
         switch extraShots {
-        case 0:
-            break
-        case 1:
-            description.append("1 extra shot")
-        default:
-            description.append("\(extraShots) extra shots")
+            case 0:
+                break
+            case 1:
+                description.append("1 extra shot")
+            default:
+                description.append("\(extraShots) extra shots")
         }
 
         if milk != .none {
