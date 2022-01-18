@@ -8,3 +8,6 @@
 - подсчет калорий
 - редактирование позиций
 - удаление позиций
+
+![Add](https://github.com/exelex/CoolBeans/blob/main/coolbeans1.jpg)
+![Edit](https://github.com/exelex/CoolBeans/blob/main/coolbeans2.jpg)
