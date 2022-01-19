@@ -33,7 +33,7 @@ class History: ObservableObject {
         var description = [String]()
         description.append(size)
 
-        if isDecaf {
+        if isDecaf { 
             description.append("decaffeinated")
         }
 
